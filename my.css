@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+
+}
+
+.header {
+    min-height: 50px;
+    background-color: blue;
+}
+
+.sub-layout {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.side-bar {
+    flex: 1;
+    background-color: yellow;
+    min-width: 100px;
+
+}
+
+.content {
+    flex: 2;
+    height: 100%;
+    background-color: green;
+}
+
+.text {
+    display: inline-block;
+    background-color: yellow;
+    position: fixed;
+    left: 50%;
+}
+
+.link {
+    display: inline-block;
+    background-color: antiquewhite;
+    float: right;
+}
+
+.footer {
+    background-color: navy;
+}
