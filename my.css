@@ -27,7 +27,6 @@ html, body {
     flex: 1;
     background-color: yellow;
     min-width: 100px;
-
 }
 
 .content {
@@ -41,12 +40,14 @@ html, body {
     background-color: yellow;
     position: fixed;
     left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .link {
     display: inline-block;
     background-color: antiquewhite;
     float: right;
+    margin-left: 1em;
 }
 
 .footer {
