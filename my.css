@@ -7,13 +7,12 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: red;
-
+    background-color: white;
 }
 
 .header {
-    min-height: 50px;
-    background-color: blue;
+    height: 30px;
+    background-color: black;
 }
 
 .sub-layout {
@@ -25,29 +24,38 @@ html, body {
 
 .side-bar {
     flex: 1;
-    background-color: yellow;
+    background-color: white;
     min-width: 100px;
 }
 
 .content {
     flex: 2;
     height: 100%;
-    background-color: green;
+    background-color: white;
 }
 
 .text {
+    margin-top: 5px;
     display: inline-block;
-    background-color: yellow;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    color: white;
 }
 
 .link {
     display: inline-block;
-    background-color: antiquewhite;
+    color: white;
+    background-color: black;
     float: right;
-    margin-left: 1em;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.bordered {
+    border-right: 1px solid white;
+}
+.green {
+    background-color: green;
 }
 
 .footer {
